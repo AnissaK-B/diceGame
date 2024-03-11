@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e6eb6e189.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <title>Dice Game</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 class="uppercase">Dice Games</h1>
+        </header>
+
+        <div class="container clic-event">
+            <div class="player uppercase  " id="player-1">
+                <span class="name">Player 1</span>
+                <div class="score red" id="score-1">0</div>
+                <div class="current" id="current-0">Current</div>
+            </div>
+
+            <div class="game"> 
+                <h2 class="uppercase  btn-new"><i class="fa-brands fa-creative-commons-sampling-plus red"></i>New Game</h2>
+                <p class="resp-true">Vous avez gagné!</p>
+                <p class="resp-false">Vous avez perdu!</p>
+                <img src="images/dice5.jpg "  width="50px" alt="Dice Image" class="dice-image" >
+             <div class="roll-hold">
+                <div class="roll uppercase btn-roll" ><i class="fa-solid fa-arrows-rotate red"></i>Roll Dice</div>
+                <div class="hold uppercase btn-hold"><i class="fa-solid fa-file-arrow-down red"></i>Hold</div>
+            </div>
+          </div>
+
+            <div class="player uppercase " id="player-2">
+                <span class="name">Player 2</span>
+                <div class="score" id="score-2">0</div>
+                <div class="current uppercase" id="current-1">Current</div>    
+            </div>
+        </div>
+          
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>

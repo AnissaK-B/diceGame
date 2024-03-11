@@ -1,0 +1,137 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 450px;
+    border: 15px solid #a26d1d;
+    width: 100vh;
+    height: 300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    padding-right: 10px;
+    background: linear-gradient(to right, #f0f0f0 50%, #fff 50%);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 40px;
+}
+
+.player {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.btn-roll, .btn-hold, .btn-new {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0b0b0b;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.btn-roll:hover,
+.btn-hold:hover,
+.btn-new:hover {
+    color: #45a049;
+}
+
+.btn-roll,
+.btn-hold,
+.btn-new {
+    cursor: pointer;
+    color: #0b0b0b;
+    transition-duration: 0.3s;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.current {
+    display: flex;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(236, 61, 61);
+    padding: 13px;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 58px;
+    margin-right: 58px;
+}
+
+.roll-hold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 12px;
+    margin-bottom: 80px;
+    margin-top: 2px;
+}
+
+.score {
+    color: rgb(236, 61, 61);
+    font-size: 80px;
+}
+
+.red {
+    color: rgb(236, 61, 61);
+}
+
+img {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin: 50px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resp-true,
+.resp-false {
+    visibility: hidden;
+}
+
+.resp-true {
+    visibility: hidden;
+    font-size: 20px;
+    color: #45a049;
+    
+}
+
+.resp-false {
+    visibility: hidden;
+    font-size: 20px;
+    color: red;
+   
+    animation: shake 0.5s ease-in-out;
+}
+
